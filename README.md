@@ -35,17 +35,31 @@ public class ControllerCar {
 }
 ~~~
 
-### Git
-> git init
-> git config --global user.name ""
-> git config --global user.email ""
-Criando o repositorio remoto no github
-> git add .
-> git commit "Subindo o projeto"
-> git branch -M main
-> 
-
-Teste de codigo
+### Git comandos
+~~~git
+git init
+~~~
+~~~git
+git config --global user.name ""
+~~~
+~~~git
+git config --global user.email ""
+~~~
+~~~git
+git add .
+~~~
+~~~git
+git commit "Subindo o projeto"
+~~~
+~~~git
+git remote add origin urldoprojeto.git
+~~~
+~~~git
+git branch -M main
+~~~
+~~~git
+git push -u origin main
+~~~
 
 ### Codigo java
 ```java
